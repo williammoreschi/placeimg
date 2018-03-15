@@ -21,9 +21,9 @@ $imagem = placeimg(100,100,'people',true);
 // Gera uma imagem com de 100x100 aleatória sem filtro;
 $imagem = placeimg(100,100);
 
-// Gera uma imagem com de 100x100 aleatória com filtro (sepia ou grayscale);
+// Gera uma imagem com de 100x100 aleatória com filtro;
 $imagem = placeimg(100,100,"",true);
 
-// Gera uma imagem com de 480x480 aleatória sem filtro (sepia ou grayscale);
+//Gera uma imagem com de 480x480 aleatória sem filtro;
 $imagem = placeimg();
 */
