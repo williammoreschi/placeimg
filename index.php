@@ -3,7 +3,7 @@ function placeimg($width='480',$height='480',$categories=NULL,$filters=false){
 $c 	= array("arch","animals","nature","people","tech","any");
 if(empty($categories)){
 	$r 	= rand(0,5); 
-	$c	= $categories[$r];
+	$c	= $c[$r];
 }else{
 	$c = (in_array($c, $categories)) ? $categories : "any"; 
 }
