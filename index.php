@@ -5,7 +5,7 @@ if(empty($categories)){
 	$r 	= rand(0,5); 
 	$c	= $c[$r];
 }else{
-	$c = (in_array($c, $categories)) ? $categories : "any"; 
+	$c = (in_array($categories,$c)) ? $categories : "any"; 
 }
 
 if(!empty($f)){
