@@ -1,6 +1,5 @@
 # placeimg
-/**
-* Função para gerar imagens aleatórias usand o https://placeimg.com
+* Função para gerar imagens aleatórias usando https://placeimg.com
 *
 * @author    William Moreschi
 *
@@ -15,15 +14,15 @@
 // Gera uma imagem com de 100x100 usando categoria people sem filtro
 $imagem = placeimg(100,100,'people');
 
-// Gera uma imagem com de 100x100 usando categoria people com filtro (sepia ou grayscale)
+// Gera uma imagem com 100x100 usando categoria people com filtro (sepia ou grayscale)
 $imagem = placeimg(100,100,'people',true);
 
-// Gera uma imagem com de 100x100 aleatória sem filtro;
+// Gera uma imagem com 100x100 aleatória sem filtro;
 $imagem = placeimg(100,100);
 
-// Gera uma imagem com de 100x100 aleatória com filtro;
+// Gera uma imagem com 100x100 aleatória com filtro;
 $imagem = placeimg(100,100,"",true);
 
 //Gera uma imagem com de 480x480 aleatória sem filtro;
 $imagem = placeimg();
-*/
+
